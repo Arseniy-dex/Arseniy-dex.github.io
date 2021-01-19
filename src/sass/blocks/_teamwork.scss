@@ -1,0 +1,127 @@
+.teamwork{
+    min-height: 762px;
+    .divider-red{
+        display: flex;
+        margin-top: -9px;
+    }
+    .title{
+        color: #262626;
+        margin-top: 89px;
+    }
+    .subtitle{
+        margin-top: 50px;
+    }
+    .teamwork__wrapper{
+        padding: 97px 150px 0 150px;
+    .teamwork__blocks{
+        display: flex;
+        justify-content: space-between;
+    .teamwork__block{
+        height: 361px;
+        border: solid 1px #e7e7e7;
+        background-color: #ffffff;
+        &:hover{
+            border: solid 1px #262626;
+            .teamwork__block-title{
+                color: #ff0036;
+            }
+            .teamwork__block-subtitle{
+                color: #ff0036;
+            }
+            .teamwork__block-img, .teamwork__block-img2, .teamwork__block-img3, .teamwork__block-img4{
+                background: #262626;
+            }
+            .teamwork__block-hover{
+                position: absolute;
+                display: flex;
+                justify-content: space-between;
+                width: 165px;
+                height: 291px;
+                margin-top: 100px;
+                margin-left: 58px;
+                transform: translateX(0);
+                .hover{
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    &__wrapper{
+                        position: absolute;
+                    }
+                }
+            }
+        }
+    .teamwork__block-img{
+        position: relative;
+        width: 270px;
+        height: 240px;
+        background: url(../../img/image/amr-srour-avatar.png) center (center/cover) no-repeat;
+        transition: 0.3s all;
+        }
+    .teamwork__block-img2{
+        position: relative;
+        width: 270px;
+        height: 240px;
+        background: url(../../img/image/amr-srour-avatar.png) center (center/cover) no-repeat;
+        transition: 0.3s all;
+        &:hover{
+                background: #262626;
+        }
+        }
+    .teamwork__block-img3{
+        position: relative;
+        width: 270px;
+        height: 240px;
+        background: url(../../img/image/johan-de-avatar.png) center (center/cover) no-repeat;
+        transition: 0.3s all;
+        }
+    .teamwork__block-img4{
+        position: relative;
+        width: 270px;
+        height: 240px;
+        background: url(../../img/image/sarah-doe-avatar.png) center (center/cover) no-repeat;
+        transition: 0.3s all;
+        }
+    .teamwork__block-hover{
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        width: 165px;
+        margin-top: 100px;
+        margin-left: 58px;
+        transform: translateX(-1500%);
+        .hover{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &__wrapper{
+                position: absolute;
+            }
+        }
+    }
+    
+    .teamwork__block-title{
+        font-family: Raleway;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        color: #262626;
+        margin-top: 34px;
+        text-transform: uppercase;
+    }
+    .teamwork__block-subtitle{
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: normal;
+        text-align: center;
+        color: #505050;
+        margin-top: 24px;
+    }
+    }
+    }
+    }
+    .divider-black{
+        margin-top: 100px;
+    }
+}

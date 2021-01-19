@@ -1,0 +1,112 @@
+.product{
+    height: 986px;
+    .divider-red{
+        margin-top: 0;
+        position: relative;
+        top: -9px;
+        &__left{
+            background-color:#ff0036;
+        }
+        &__right{
+            background-color:#ff0036;
+        }
+    }
+    .title{
+        color:#262626;
+        margin-top: 90px;
+    }
+    .subtitle{
+        margin-top: 50px;
+    }
+    &__wrapper{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        .product__left-tabs{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            height: 205px;
+            margin-top: 177px;
+            .product__left-tab{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                width: 370px;
+                height: 53px;
+                border: solid 1px #e7e7e7;
+                background-color: #ffffff;
+                font-family: Raleway;
+                font-size: 20px;
+                margin-bottom: 23px;
+                font-weight: 500;
+                text-align: center;
+                color: #262626;
+                text-transform: uppercase;
+                padding: 15px 0;
+                transition: 0.3s all;
+                &:hover{
+                    background-color: #ff0036;
+                    color: #ffffff;
+                }
+                .product__left-img{
+                    width: 37px;
+                    height: 32px;
+                    background: url(../../img/icons/check.png) center (center/cover) no-repeat;
+                    margin-left: 17px;
+                    margin-right: 20px;
+                    &:hover{
+                        background: url(../../img/icons/red-check.png) center (center/cover) no-repeat;
+                    }
+                }
+            }
+        }
+        .product__img{
+            position: relative;
+            .button{
+                position: absolute;
+                left: 170px;
+                bottom: 73px
+            }
+        }
+        .product__right-tabs{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            height: 205px;
+            margin-top: 177px;
+            .product__right-tab{
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                width: 370px;
+                height: 53px;
+                border: solid 1px #e7e7e7;
+                background-color: #ffffff;
+                font-family: Raleway;
+                font-size: 20px;
+                margin-bottom: 23px;
+                font-weight: 500;
+                text-align: center;
+                color: #262626;
+                text-transform: uppercase;
+                padding: 15px 0;
+                transition: 0.3s all;
+                &:hover{
+                    background-color: #ff0036;
+                    color: #ffffff;
+                }
+                .product__right-img{
+                    width: 37px;
+                    height: 32px;
+                    background: url(../../img/icons/check.png) center (center/cover) no-repeat;
+                    margin-left: 17px;
+                    margin-right: 20px;
+                    &:hover{
+                        background: url(../../img/icons/red-check.png) center (center/cover) no-repeat;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+@import 'base/variables';
+
+*{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+
+@import 'blocks/menu';
+@import 'blocks/promo';
+@import 'blocks/title';
+@import 'blocks/divider';
+@import 'blocks/buttons';
+@import 'blocks/subtitle';
+@import 'blocks/about';
+@import 'blocks/portfolio';
+@import 'blocks/product';
+@import 'blocks/clients';
+@import 'blocks/teamwork';
+@import 'blocks/skills';
+@import 'blocks/services';
+@import 'blocks/bestseller';
