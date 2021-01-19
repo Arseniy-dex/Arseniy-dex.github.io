@@ -8,7 +8,11 @@
     }
     .bestseller__wrapper{
         margin-top: 100px;
+        padding: 0 350px;
     .bestseller__tabs{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
     .bestseller__tab{
     .bestseller__name{
         font-family: Raleway;
@@ -41,22 +45,20 @@
         }
     }
     .bestseller__plan{
-        height: 391px;
-        margin-left: 0;
+        height: 356px;
+        padding-left: 0;
+        list-style: none;
         margin-bottom: 0;
         margin: 0;
         li{
             width: 270px;
             height: 51px;
-            margin-left: 0;
             font-family: Lato;
             font-size: 16px;
             font-weight: normal;
-            list-style: none;
             border: solid 1px #e7e7e7;
             text-align: center;
-            padding-top: 14px;
-            
+            padding-top: 14px;  
         }
     }
     }
